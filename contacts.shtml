@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Связаться с нами - Дом аренды</title>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61667170-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <script src="//use.typekit.net/brz8lcy.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="new.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+        <link href="font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+<!-- navbar start -->
+                <!--#include virtual="include/navbar.html"-->
+<!-- navbar end -->  
+            
+            <div class="row">
+                <div class="col-md-9 custom">
+                    <ol class="breadcrumb"> 
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>                         
+                        <li class="active">Контакты</li>                         
+                    </ol>
+                    <div class="page-header">
+                        <h1>Контакты</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-6">
+                            <p>Руководство компании заинтересовано в улучшении качества предоставляемых услуг и постоянно поддерживает обратную связь с клиентами для повышения их степени удовлетворенности.</p>
+                            <p>Предложения и замечания, возникшие в процессе работы, Вы можете отправить по e-mail: <a href='&#109;ailto&#58;info&#64;&#100;o%6&#68;a%72end%7&#57;&#46;&#37;62y'>in&#102;o&#64;dom&#97;r&#101;&#110;dy&#46;by</a> или обратиться через контактную форму. Для этого Вам необходимо заполнить все свободные поля и выслать запрос, нажав на кнопку "Отправить".</p>
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+                                    <a href="#" class="thumbnail">
+                                        <img src="images/contact/map.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6">
+                            <form class="form-normal" id="contact_form">
+                                <fieldset>
+                                    <!-- Form Name -->
+                                    <!-- Text input-->
+                                    <div class="form-group">
+                                        <label class="control-label" for="name">Ваше имя</label>
+                                        <div>
+                                            <div>
+                                                <input id="name" name="name" type="text" class="form-control input-md" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Text input-->
+                                    <div class="form-group">
+                                        <label class="control-label" for="email">Адрес электронной почты</label>
+                                        <div>
+                                            <div>
+                                                <input id="email" name="email" type="text" class="form-control input-md" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label" for="phone">Контактный телефон</label>
+                                        <div>
+                                            <div>
+                                                <input id="phone" name="phone" type="text" class="form-control input-md" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Textarea -->
+                                    <div class="form-group">
+                                        <label class="control-label" for="msg">Ваше сообщение</label>
+                                        <div>
+                                            <div>
+                                                <textarea class="form-control" id="msg" name="msg" cols="6" rows="6"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Button -->
+                                    <div class="form-group">
+                                        <label class="control-label" for="submit"></label>
+                                        <div>
+                                            <div>
+                                                <button id="submit" name="submit" class="btn">
+                                                    <i class="fa fa-envelope-o"></i> Отправить
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Интерактивная карта</h3>
+                            <hr />
+                            <div id="map"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 hidden-xs hidden-sm">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>ООО «Дом Аренды»</h3>
+                            <p><b>ООО «Дом Аренды»</b> предлагает в долгосрочную и краткосрочную аренду строительную технику.</p>
+                            <p><a class="btn btn-block btn-lg" role="button" href="pdf/Pricelist.pdf"><i class="fa fa-file-pdf-o"></i> Скачать прайс-лист</a></p>
+                        </div>
+                    </div>
+                </div>
+<!-- contacts start -->
+                <!--#include virtual="include/contact.html"-->
+<!-- contacts end -->
+                <div class="col-sm-6 col-lg-3 col-md-3"> 
+                    <div class="thumbnail"> 
+                        <div class="caption"> 
+                            <h3>YouTube Канал</h3> 
+                            <p>Видео работы ООО «Дом Аренды» в Беларуси.</p>
+                            <p><a class="btn btn-block btn-lg" role="button" href="https://www.youtube.com/channel/UCVLfxAGxG-VDSJwnzprN0sw"><i class="fa fa-youtube"></i> Смотреть</a></p> 
+                        </div>                         
+                    </div>                     
+                </div>
+            </div>
+<!-- footer start -->
+                <!--#include virtual="include/footer.html"-->
+<!-- footer end -->
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <title></title>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="gmaps.js"></script>
+        <script src="contact.js"></script>
+        <script>
+    var map = new GMaps({
+      el: '#map',
+      lat: +53.919790,
+      lng: +27.700130
+    });
+            map.addMarker({
+  lat: +53.919790,
+  lng: +27.700130,
+});
+  </script>
+    </body>
+</html>

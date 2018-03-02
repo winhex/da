@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /include
+Disallow: /about-us.html 
+Disallow: /novosti.html 
+Disallow: /subbotnik.html
+Disallow: /uslugi.html 
+Disallow: /prodazha-tehniki.html
+Disallow: /terms.html

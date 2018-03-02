@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Аренда техники в Минске и областях - Дом аренды</title>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61667170-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="new.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+        <link href="font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+        
+        <link href="http://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet" type="text/css">
+    </head>
+    <body class="test-rows">
+        <div class="container">
+            
+<!-- navbar start -->
+                <!--#include virtual="include/navbar.html"-->
+<!-- navbar end -->              
+               
+            <div class="row">
+                <div class="col-md-9 custom">
+                    <div id="myCarousel" class="carousel slide hidden-xs">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            
+                        </ol>
+                        <div class="carousel-inner">
+                            
+<!-- mkz start -->                            
+                               <div class="item active">
+                                <img src="images/mkz/mkz_main.jpg" alt="" width="100%">
+                                <div class="carousel-caption">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h4><a href="mkz.shtml">Мобильные комбикормовые заводы</a></h4> 
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+                                            <p>  оборудование по производству комбикорма в местах хранения сырья, кормления животных. </p> 
+                                        </div>
+                                                
+                                        
+                                        <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2 pull-right"> 
+                                            <a href="mkz.shtml" class="thumbnail"> 
+                                                <img src="images/mkz/mkz_thumb.jpg" alt=""> 
+                                            </a>                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- mkz end -->
+<!-- fiori start -->
+                            
+                            <div class="item">
+                                <img src="images/Vidy-rabot/betonnye-raboty.jpg" alt="" width="100%">
+                                <div class="carousel-caption">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h4><a href="betonnye-raboty.html">Бетонные работы</a></h4> 
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+                                            <p>Бетонные работы составляют основную часть любого строительства или ремонта...</p> 
+                                        </div>
+                                        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 pull-right"> 
+                                            <a href="avtobetonosmesitel.html" class="thumbnail"> 
+                                                <img src="images/Fiori/Avtobetonosmesitelj/FIORI-DB-260.jpg" alt=""> 
+                                            </a>                                             
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!-- fiori end -->                            
+<!-- snow and garbage start -->                            
+                            <div class="item">
+                                <img src="images/Vidy-rabot/uborka.jpg" alt="" width="100%">
+                                <div class="carousel-caption">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h4><a href="uborka-snega.html">Уборка снега (мусора)</a></h4> 
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+                                            <p>Уборка снега (мусора) – услуга, которая востребована на территории нашей страны...</p> 
+                                        </div>
+                                        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 pull-right"> 
+                                            <a href="mini-pogruzchik.html" class="thumbnail"> 
+                                                <img src="images/Bobcat/Pogruzchik/Bobcat-S570.jpg" alt=""> 
+                                            </a>                                             
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+<!-- snow and garbage end -->                        
+                            
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                    </div>
+                    <div class="page-header">
+                        <h1 class="h1">Аренда спецтехники в Беларуси</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="multi-column">
+                                <p>Наша компания <b>ООО «Дом Аренды»</b> предлагает большой ассортимент при выборе техники в аренду от ведущих мировых производителей, который позволит Вам максимально эффективно выполнить свои задачи.</p>
+                                <p>В парке нашей арендной техники только <b>новые машины</b> (2013-2015 годов выпуска), которые гарантируют беспроблемную эксплуатацию ее на объектах. Все машины обслуживаются собственным сервисом, мы следим за своевременностью технического обслуживания арендных машин. <b>Опытные и надежные водители</b> (машинисты) выполнят все Ваши пожелания, не нарушая требований техники безопасности, а <b>компетентный и квалифицированный персонал</b> донесет до Вас все особенности эксплуатации техники и учтет все Ваши пожелания при заключении договора.</p>
+                                <p>Мы заинтересованы во взаимовыгодном сотрудничестве с нашими постоянными Клиентами и для Вас предусмотрена <b>специальная гибкая система скидок</b>.</p>
+                                <p>Нам <b>доверяют удовлетворенные Клиенты</b>, что обеспечивается контролем качества обслуживания путем обязательного заполнения опрос-анкеты на каждом объекте. 70% Заказчиков обращаются к нам повторно.</p>
+                                <p>С каждым Клиентом мы <b>всегда договариваемся</b> на взаимовыгодные условия и находим общий язык при заключении договора. С нами удобно сотрудничать, потому что <b>качество обслуживания</b> для компании ООО «Дом Аренды» является правилом.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3><i class="fa fa-newspaper-o"></i> Статьи</h3>
+                            <hr /> 
+                        </div>
+                        <div class="col-md-4"> 
+                            <p><b>2015-04-19</b></p>
+                            <p><b>Субботник</b></p>
+                            <p><i>18 апреля 2015 года на всей территории Республики Беларусь проходил общереспубликанский субботник. Одним из заплан...</i></p>
+                            <p><a href="subbotnik.html"><i class="fa fa-hand-o-right"></i> Подробнее</a></p>
+                        </div>
+                        <div class="col-md-4"> 
+                            <p><b>2015-04-19</b></p>
+                            <p><b>Субботник</b></p>
+                            <p><i>18 апреля 2015 года на всей территории Республики Беларусь проходил общереспубликанский субботник. Одним из заплан...</i></p>
+                            <p><a href="subbotnik.html"><i class="fa fa-hand-o-right"></i> Подробнее</a></p>
+                        </div>
+                        <div class="col-md-4"> 
+                            <p><b>2015-04-19</b></p>
+                            <p><b>Субботник</b></p>
+                            <p><i>18 апреля 2015 года на всей территории Республики Беларусь проходил общереспубликанский субботник. Одним из заплан...</i></p>
+                            <p><a href="subbotnik.html"><i class="fa fa-hand-o-right"></i> Подробнее</a></p>
+                        </div>
+                        <div class="col-md-12">
+                            <h3><i class="fa fa-youtube-play"></i> Техника в работе</h3>
+                            <hr /> 
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6"> 
+                            <div class="thumbnail"> 
+                                <div class="embed-responsive embed-responsive-16by9"> 
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/apBFBSYmfj4"></iframe>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6"> 
+                            <div class="thumbnail"> 
+                                <div class="embed-responsive embed-responsive-16by9"> 
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ikx8GOsjF00"></iframe>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 hidden-xs hidden-sm">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>ООО «Дом Аренды»</h3>
+                            <p><b>ООО «Дом Аренды»</b> предлагает в долгосрочную и краткосрочную аренду строительную технику.</p>
+                            <p><a class="btn btn-block btn-lg" role="button" href="pdf/Pricelist.pdf"><i class="fa fa-file-pdf-o"></i> Скачать прайс-лист</a></p>
+                        </div>
+                    </div>
+                </div>
+<!-- contacts start -->
+                <!--#include virtual="include/contact.html"-->
+<!-- contacts end -->
+                <div class="col-sm-6 col-lg-3 col-md-3"> 
+                    <div class="thumbnail"> 
+                        <div class="caption"> 
+                            <h3>YouTube Канал</h3> 
+                            <p>Видео работы ООО «Дом Аренды» в Беларуси.</p>
+                            <p><a class="btn btn-block btn-lg" role="button" href="https://www.youtube.com/channel/UCVLfxAGxG-VDSJwnzprN0sw"><i class="fa fa-youtube"></i> Смотреть</a></p> 
+                        </div>                         
+                    </div>                     
+                </div>
+            </div>
+
+<!-- footer start -->
+                <!--#include virtual="include/footer.html"-->
+<!-- footer end -->            
+               
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="//use.typekit.net/brz8lcy.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script src="jquery.matchHeight.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function() {
+    $('.item').matchHeight();
+});</script>         
+    </body>
+</html>
