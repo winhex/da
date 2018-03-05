@@ -44,7 +44,7 @@
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            
                             
                         </ol>
                         <div class="carousel-inner">
@@ -97,27 +97,6 @@
                             </div>
 <!-- fiori end -->                            
 <!-- snow and garbage start -->                            
-                            <div class="item">
-                                <img src="images/Vidy-rabot/uborka.jpg" alt="" width="100%">
-                                <div class="carousel-caption">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h4><a href="uborka-snega.html">Уборка снега (мусора)</a></h4> 
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
-                                            <p>Уборка снега (мусора) – услуга, которая востребована на территории нашей страны...</p> 
-                                        </div>
-                                        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2 pull-right"> 
-                                            <a href="mini-pogruzchik.html" class="thumbnail"> 
-                                                <img src="images/Bobcat/Pogruzchik/Bobcat-S570.jpg" alt=""> 
-                                            </a>                                             
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
 <!-- snow and garbage end -->                        
                             
                         </div>
