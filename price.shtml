@@ -4,21 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <meta name="description" content="МКЗ, Аренда техники, Fiori, Фиори">
         <meta name="author" content="">
-        <title>Аренда автобетоносмесителя - Дом аренды</title>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61667170-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-        <script src="//use.typekit.net/brz8lcy.js"></script>
-        <script>try{Typekit.load();}catch(e){}</script>
+        <title>Статьи - Дом аренды</title>
+<!-- analytics start -->
+                <!--#include virtual="include/analytics.html"-->
+<!-- analytics end -->
+        
         <!-- Bootstrap core CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
@@ -33,58 +25,34 @@
     </head>
     <body>
         <div class="container">
-            <nav class="navbar navbar-default navbar-static-top" role="navigation">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand visible-lg visible-md helper visible-sm navbar-brand-small visible-xs" href="index.html"></a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right helper">
-                            <li>
-                                <a href="about-us.html">О нас</a>
-                            </li>
-                            <li>
-                                <a href="katalog-tehniki.html">Каталог техники</a>
-                            </li>
-                            <li>
-                                <a href="uslugi.html">Наши услуги</a>
-                            </li>
-                            <li>
-                                <a href="prodazha-tehniki.html">Техника Б/У</a>
-                            </li>
-                            <li>
-                                <a href="novosti.html">Новости</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Контакт</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <!-- navbar start -->
+                <!--#include virtual="include/navbar.html"-->
+            <!-- navbar end -->
             <div class="row">
                 <div class="col-md-9 custom">
                     <ol class="breadcrumb"> 
                         <li>
-                            <a href="index.html">Главная</a>
+                            <a href="/">Главная</a>
                         </li>                         
-                        <li class="active">Техника Б/У</li>                         
+                        <li class="active">Статьи</li>                         
                     </ol>
                     <div class="page-header">
-                        <h1>Техника Б/У</h1>
+                        <h1>Статьи</h1>
                     </div>
                     <div class="row">
-</div>
+                        <div class="col-md-12"> 
+                            <div class="caption"> 
+                                <h3><a href="article_mkz">Мобильные комбикормовые заводы</a></h3>
+                                
+                                <p>Мобильный комбикормовый завод - это оборудование по производству комбикорма в местах хранения сырья, кормления животных. </p> 
+                                
+                            </div>                             
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4 col-lg-3">
                     <div class="row">
-                        <div class="col-sm-6 col-md-3 hidden-xs hidden-sm col-lg-12">
+                        <div class="col-sm-6 col-md-12 hidden-xs hidden-sm col-lg-12">
                             <div class="thumbnail">
                                 <div class="caption">
                                     <h3>ООО «Дом Аренды»</h3>
@@ -93,24 +61,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-12 col-lg-12">
-                            <div class="thumbnail">
-                                <div class="caption">
-                                    <h3>Контакты</h3>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <p><i class="fa fa-mobile fa-fw"></i> +375 44 787 01 87</p>
-                                            <p><i class="fa fa-mobile fa-fw"></i> +375 44 535 01 95</p>
-                                            <p><i class="fa fa-mobile fa-fw"></i> +375 44 540 94 35</p>
-                                            <p><i class="fa fa-fax fa-fw"></i> +375 17 385 12 66</p>
-                                            <p><i class="fa fa-envelope fa-fw"></i> info@domarendy.by</p>
-                                            <p><i class="fa fa-building fa-fw"></i> ул. Липковская 9, 2-й этаж <br>220138 г. Минск</p>
-                                        </div>
-                                    </div>
-                                    <p><a class="btn btn-block btn-lg" href="contact.html" role="button"><i class="fa fa-car fa-fw"></i> Схема проезда</a></p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-sm-12">
+                  <div class="thumbnail">
+                      <div class="caption">
+                              <h3>Контакты</h3>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <!-- contacts start -->
+                                        <!--#include virtual="include/contact-m.html"-->
+                                      <!-- contacts end -->
+                                  </div>
+                              </div>
+                          <p><a class="btn btn-block btn-lg" href="contacts" role="button"><i class="fa fa-car fa-fw"></i> Схема проезда</a></p>
+                      </div>
+                  </div>
+                </div>
                         <div class="col-sm-6 col-md-6 col-lg-12"> 
                             <div class="thumbnail"> 
                                 <div class="caption"> 
@@ -123,9 +88,9 @@
                     </div>                     
                 </div>
             </div>
-            <div class="panel-footer">2013 - 2015 © ООО «Дом Аренды» УНП 192245571
-                <span class="clearfix">Web development by <a href="http://webmarcus.com" class="webmarcus">Webmarcus</a></span>
-            </div>
+            <!-- footer start -->
+                <!--#include virtual="include/footer.html"-->
+            <!-- footer end -->
             <div class="modal fade" id="order" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -194,6 +159,8 @@
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
+        <script src="//use.typekit.net/brz8lcy.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

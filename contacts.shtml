@@ -4,21 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <meta name="description" content="Контакты Дом аренды">
         <meta name="author" content="">
         <title>Связаться с нами - Дом аренды</title>
-        <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61667170-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-        <script src="//use.typekit.net/brz8lcy.js"></script>
-        <script>try{Typekit.load();}catch(e){}</script>
+<!-- analytics start -->
+                <!--#include virtual="include/analytics.html"-->
+<!-- analytics end -->
+        
         <!-- Bootstrap core CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
         <!-- Custom styles for this template -->
@@ -29,6 +21,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
         <link href="font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/custom.css">
     </head>
     <body>
         <div class="container">
@@ -40,7 +33,7 @@
                 <div class="col-md-9 custom">
                     <ol class="breadcrumb"> 
                         <li>
-                            <a href="index.html">Главная</a>
+                            <a href="/">Главная</a>
                         </li>                         
                         <li class="active">Контакты</li>                         
                     </ol>
@@ -49,8 +42,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-lg-6 col-sm-6">
-                            <p>Руководство компании заинтересовано в улучшении качества предоставляемых услуг и постоянно поддерживает обратную связь с клиентами для повышения их степени удовлетворенности.</p>
-                            <p>Предложения и замечания, возникшие в процессе работы, Вы можете отправить по e-mail: <a href='&#109;ailto&#58;info&#64;&#100;o%6&#68;a%72end%7&#57;&#46;&#37;62y'>in&#102;o&#64;dom&#97;r&#101;&#110;dy&#46;by</a> или обратиться через контактную форму. Для этого Вам необходимо заполнить все свободные поля и выслать запрос, нажав на кнопку "Отправить".</p>
+                            <p class="text-justify article">Руководство компании заинтересовано в улучшении качества предоставляемых услуг и постоянно поддерживает обратную связь с клиентами для повышения их степени удовлетворенности.</p>
+                            <p class="text-justify article">Предложения и замечания, возникшие в процессе работы, Вы можете отправить по e-mail: <a href='&#109;ailto&#58;info&#64;&#100;o%6&#68;a%72end%7&#57;&#46;&#37;62y'>in&#102;o&#64;dom&#97;r&#101;&#110;dy&#46;by</a> или обратиться через контактную форму. Для этого Вам необходимо заполнить все свободные поля и выслать запрос, нажав на кнопку "Отправить".</p>
                             <div class="row">
                                 <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
                                     <a href="#" class="thumbnail">
@@ -130,9 +123,21 @@
                         </div>
                     </div>
                 </div>
-<!-- contacts start -->
-                <!--#include virtual="include/contact.html"-->
-<!-- contacts end -->
+                <div class="col-md-3 col-sm-12">
+                  <div class="thumbnail">
+                      <div class="caption">
+                              <h3>Контакты</h3>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <!-- contacts start -->
+                                        <!--#include virtual="include/contact-m.html"-->
+                                      <!-- contacts end -->
+                                  </div>
+                              </div>
+                          <p><a class="btn btn-block btn-lg disabled" href="contacts" role="button"><i class="fa fa-car fa-fw"></i> Схема проезда</a></p>
+                      </div>
+                  </div>
+                </div>
                 <div class="col-sm-6 col-lg-3 col-md-3"> 
                     <div class="thumbnail"> 
                         <div class="caption"> 
@@ -150,6 +155,8 @@
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
+        <script src="//use.typekit.net/brz8lcy.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

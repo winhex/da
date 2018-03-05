@@ -34,10 +34,10 @@
                 <div class="col-md-9 custom">
                     <ol class="breadcrumb"> 
                         <li>
-                            <a href="index.html">Главная</a>
+                            <a href="/">Главная</a>
                         </li>                         
                         <li>
-                            <a href="katalog-tehniki.html">Каталог техники</a>
+                            <a href="katalog-tehniki">Каталог техники</a>
                         </li>                         
                         <li class="active">Автобетоносмесители с самозагрузкой</li>                         
                     </ol>
@@ -149,20 +149,20 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12">
-    <div class="thumbnail">
-        <div class="caption">
-                <h3>Контакты</h3>
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- contacts start -->
-                          <!--#include virtual="include/contact-m.html"-->
-                        <!-- contacts end -->
-                    </div>
+                  <div class="thumbnail">
+                      <div class="caption">
+                              <h3>Контакты</h3>
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <!-- contacts start -->
+                                        <!--#include virtual="include/contact-m.html"-->
+                                      <!-- contacts end -->
+                                  </div>
+                              </div>
+                          <p><a class="btn btn-block btn-lg" href="contacts.shtml" role="button"><i class="fa fa-car fa-fw"></i> Схема проезда</a></p>
+                      </div>
+                  </div>
                 </div>
-            <p><a class="btn btn-block btn-lg" href="contacts.shtml" role="button"><i class="fa fa-car fa-fw"></i> Схема проезда</a></p>
-        </div>
-    </div>
-</div>
                 <div class="col-sm-6 col-md-6 col-lg-3"> 
                     <div class="thumbnail"> 
                         <div class="caption"> 
