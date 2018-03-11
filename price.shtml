@@ -42,45 +42,60 @@
                     </div>
                 <div class="row ">
                        
-                            <div class="col-lg-12 col-sm-4" >
-                            <h3 class="text-center">Автобетоносмеситель с самозагрузкой Fiori</h3>
+                            <div class="col-lg-4 col-sm-12" >
+                                
+                            <div class="thumbnail item item-1">
+                                <div class="caption"><h3 class="text-center">Автобетоносмеситель с самозагрузкой Fiori</h3> </div>
                                 <img class="img-responsive center-block" src="images/Fiori/Avtobetonosmesitelj/FIORI-DB-260.jpg" alt="Фиори" width="140" height="140">
                                 
                                 <p>  <b>Производительность бетона в смену - до 60м3</b> </p>
-                                <p>Габариты Д/В/Ш 5770/2800/2250мм 2WD, 4WD, CRAB, принтер, мойка Рабочий вес 5500кг</p> <br>
-                                <div class="alert alert-danger fade in"><b>От 25BYN за приготовление 1м3 бетона</b> <br>
+                                <p>Габариты Д/В/Ш 5770/2800/2250мм 2WD, 4WD, CRAB, принтер, мойка Рабочий вес 5500кг</p> <br><br><br>
+                                <div class="alert alert-danger fade in"><b>От 25BYN за приготовление 1м3 бетона</b> 
                                 
                                 </div>
-                                <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
+                                <br>
+                                <!--<button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>-->
+                                <a href="avtobetonosmesitel" class="btn btn-danger btn-sm" role="button">Подробнее &raquo;</a>
+                            </div>
+                                
                               
                             </div><!-- /.col-lg-4 -->
-                            <div class="col-lg-12 col-sm-4">
-                            <h3 class="text-center">Мобильные комбикормовые заводы Buschoff</h3>
+                            <div class="col-lg-4 col-sm-12">
+                             <div class="thumbnail item item-2">
+                                <div class="caption">
+                                    <h3 class="text-center">Мобильные комбикормовые заводы Buschoff</h3>
+                                </div>
                                 <img class="img-responsive center-block" src="images/mkz/mkz_catalog.jpg" alt="МКЗ" width="140" height="140">
                                 
                                 <p><b>Производительность комбикорма до 20т/час</b>  <br> Гомогенное смешивание 1:100000<br>
                                   Электронные весы, включая систему управления введенной рецептуры<br>
                                 Бак для соевого масла с подогревом</p><br>
-                                <div class="alert alert-danger fade in vertical-bottom"><b>От 8BYN + 8л. ДТ за 1 тонну</b><br>    <br>
+                                <div class="alert alert-danger fade in vertical-bottom"><b>От 8BYN + 8л. ДТ за 1 тонну</b><br>
                                                              
                                 </div>
-                                <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
+                                <br><br>
+                                <a href="mkz" class="btn btn-danger btn-sm" role="button">Подробнее &raquo;</a>
+                             </div>   
+                            
                                 
                            
                             </div><!-- /.col-lg-4 -->
-                            <div class="col-lg-12 col-sm-4">
-                            <h3 class="text-center">Мини-погрузчики Bobcat</h3>
+                            <div class="col-lg-4 col-sm-12">
+                                <div class="thumbnail item item-3">
+                            <div class="caption"> <h3 class="text-center">Мини-погрузчики Bobcat</h3></div>
+                            
                                 <img class="img-responsive center-block" src="images/Bobcat/Pogruzchik/Bobcat-S570.jpg" alt="Bobcat" width="140" height="140">
                                 
                                 
                                 <p><b>Максимальная грузоподъемность - 870кг.</b> </p>
                                 <p>Габариты (с ковшом) Д/В/Ш 3751/2118/2032<br>
                                 Высота выгрузки 3 657мм<br>
-                                Рабочий вес 2815 кг.</p>
-                                <div class="alert alert-danger fade in"><b>От 8BYN + 8л. ДТ за 1 тонну</b><br><br>
-                                
+                                Рабочий вес 2815 кг.</p><br><br>
+                                <div class="alert alert-danger fade in"><b>35BYN в час </b>                
                                 </div>
-                                <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
+                               <br><br>
+                                <a href="mini-pogruzchik" class="btn btn-danger btn-sm disabled" role="button">Подробнее &raquo;</a>
+                            </div>
                             
                             </div><!-- /.col-lg-4 -->
                         
@@ -103,19 +118,25 @@
                 
                 <div class="row">
                       <div class="col-lg-4 col-sm-4">
+                        <div class="thumbnail item item-1">
                           <img class="img-responsive center-block" src="images/Atachments/povorotnaya_shetka_Bobcat.jpg" alt="Фиори" width="140" height="140">
                         <h4 class="text-center">Щетка угловая повортная (гидроповорот/ACD)</h4>
                         <p class="text-center"><mark>В комплекте с погрузчиком</mark> </p>
+                        </div>
                       </div>
                       <div class="col-lg-4 col-sm-4">
+                        <div class="thumbnail item item-2">
                           <img class="img-responsive center-block" src="images/Atachments/stroiteljnyj-kovsh-Bobcat.jpg" alt="Ковш" width="140" height="140">
                         <h4 class="text-center">Ковш для легких материалов и снега</h4>
                         <p class="text-center"><mark>В комплекте с погрузчиком</mark> </p>
+                        </div>
                       </div>
                       <div class="col-lg-4 col-sm-4">
+                        <div class="thumbnail item item-2">
                           <img class="img-responsive center-block" src="images/Atachments/snegouborochnyj-otval-Bobcat-5.jpg" alt="Фиори" width="140" height="140">
                         <h4 class="text-center">Снегоуборочный отвал (гидроповорот)</h4>
                         <p class="text-center"><mark>В комплекте с погрузчиком</mark> </p>
+                        </div>
                       </div>
                 </div>
 
@@ -147,7 +168,7 @@
                                 <div class="caption">
                                     <h3>ООО «Дом Аренды»</h3>
                                     <p><b>ООО «Дом Аренды»</b> предлагает в долгосрочную и краткосрочную аренду строительную и сельскохозяйственную технику.</p>
-                                    <p><a class="btn btn-block btn-lg disabled" role="button" href="pdf/Pricelist.pdf"><i class="fa fa-file-pdf-o"></i> Наши цены</a></p>
+                                    <p><a class="btn btn-block btn-lg disabled" role="button" href="price"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Наши цены</a></p>
                                 </div>
                             </div>
                         </div>
