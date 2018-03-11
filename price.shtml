@@ -22,6 +22,7 @@
     <![endif]-->
         <link href="font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
         <link href="jquery.fs.boxer.css" rel="stylesheet" type="text/css">
+        <link  href="css/custom.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -39,43 +40,50 @@
                     <div class="page-header">
                         <h1>Наши цены</h1>
                     </div>
-                <div class="row row-conformity">
-                            <div class="col-lg-4">
+                <div class="row ">
+                       
+                            <div class="col-lg-12 col-sm-4" >
+                            <h3 class="text-center">Автобетоносмеситель с самозагрузкой Fiori</h3>
                                 <img class="img-responsive center-block" src="images/Fiori/Avtobetonosmesitelj/FIORI-DB-260.jpg" alt="Фиори" width="140" height="140">
-                                <h4 class="text-center">Автобетоносмеситель с самозагрузкой Fiori</h4>
+                                
                                 <p>  <b>Производительность бетона в смену - до 60м3</b> </p>
                                 <p>Габариты Д/В/Ш 5770/2800/2250мм 2WD, 4WD, CRAB, принтер, мойка Рабочий вес 5500кг</p> <br>
                                 <div class="alert alert-danger fade in"><b>От 25BYN за приготовление 1м3 бетона</b> <br>
-                                <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
+                                
                                 </div>
-                                    
+                                <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
+                              
                             </div><!-- /.col-lg-4 -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-12 col-sm-4">
+                            <h3 class="text-center">Мобильные комбикормовые заводы Buschoff</h3>
                                 <img class="img-responsive center-block" src="images/mkz/mkz_catalog.jpg" alt="МКЗ" width="140" height="140">
-                                <h4 class="text-center">Мобильные комбикормовые заводы Buschoff</h4>
+                                
                                 <p><b>Производительность комбикорма до 20т/час</b>  <br> Гомогенное смешивание 1:100000<br>
                                   Электронные весы, включая систему управления введенной рецептуры<br>
                                 Бак для соевого масла с подогревом</p><br>
-                                <div class="alert alert-danger fade in"><b>От 8BYN + 8л. ДТ за 1 тонну</b><br>    <br>
+                                <div class="alert alert-danger fade in vertical-bottom"><b>От 8BYN + 8л. ДТ за 1 тонну</b><br>    <br>
+                                                             
+                                </div>
                                 <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
                                 
-                                </div>
-                                
-                                
+                           
                             </div><!-- /.col-lg-4 -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-12 col-sm-4">
+                            <h3 class="text-center">Мини-погрузчики Bobcat</h3>
                                 <img class="img-responsive center-block" src="images/Bobcat/Pogruzchik/Bobcat-S570.jpg" alt="Bobcat" width="140" height="140">
-                                <h4 class="text-center">Мини-погрузчики Bobcat</h4>
+                                
                                 
                                 <p><b>Максимальная грузоподъемность - 870кг.</b> </p>
                                 <p>Габариты (с ковшом) Д/В/Ш 3751/2118/2032<br>
                                 Высота выгрузки 3 657мм<br>
                                 Рабочий вес 2815 кг.</p>
                                 <div class="alert alert-danger fade in"><b>От 8BYN + 8л. ДТ за 1 тонну</b><br><br>
-                                <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
-                                </div>
                                 
+                                </div>
+                                <button type="button" class="btn btn-danger btn-sm">Подробнее &raquo;</button>
+                            
                             </div><!-- /.col-lg-4 -->
+                        
                 <!--<div class="row">
                     <div class="col-lg-4">
                                                                                   
@@ -94,17 +102,17 @@
                 </div><!-- /.row -->
                 
                 <div class="row">
-                      <div class="col-lg-4">
+                      <div class="col-lg-4 col-sm-4">
                           <img class="img-responsive center-block" src="images/Atachments/povorotnaya_shetka_Bobcat.jpg" alt="Фиори" width="140" height="140">
                         <h4 class="text-center">Щетка угловая повортная (гидроповорот/ACD)</h4>
                         <p class="text-center"><mark>В комплекте с погрузчиком</mark> </p>
                       </div>
-                      <div class="col-lg-4">
+                      <div class="col-lg-4 col-sm-4">
                           <img class="img-responsive center-block" src="images/Atachments/stroiteljnyj-kovsh-Bobcat.jpg" alt="Ковш" width="140" height="140">
                         <h4 class="text-center">Ковш для легких материалов и снега</h4>
                         <p class="text-center"><mark>В комплекте с погрузчиком</mark> </p>
                       </div>
-                      <div class="col-lg-4">
+                      <div class="col-lg-4 col-sm-4">
                           <img class="img-responsive center-block" src="images/Atachments/snegouborochnyj-otval-Bobcat-5.jpg" alt="Фиори" width="140" height="140">
                         <h4 class="text-center">Снегоуборочный отвал (гидроповорот)</h4>
                         <p class="text-center"><mark>В комплекте с погрузчиком</mark> </p>
@@ -244,10 +252,14 @@
         <script src="//use.typekit.net/brz8lcy.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
         <script src="assets/js/jquery.min.js"></script>
+        <!--<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>-->
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
         <script src="jquery.fs.boxer.js"></script>
+        
+        
+
         <script>
 			$(document).ready(function() {
 				$(".boxer").not(".retina, .boxer_fixed, .boxer_top, .boxer_format, .boxer_mobile, .boxer_object").boxer();
